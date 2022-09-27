@@ -1,0 +1,11 @@
+{
+  "name": "touch-controls-sdk",
+  "scripts": {
+    "build": "node build-sprites.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "json-templates": "^4.2.0",
+    "md5": "^2.3.0"
+  }
+}
