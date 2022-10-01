@@ -1,6 +1,6 @@
 # touch-controls-sdk
 
-Touch Controls SDK for Scratch 3 - add a "virtual gamepad" / "touch controls" to your project for no keyboard users.
+Touch Controls SDK for Scratch 3 - add a "virtual gamepad" / "touch controls" to your project for touch screen (no keyboard) users.
 
 ## build
 
@@ -35,3 +35,18 @@ npm run build
 1. Export all artboards in SVG format to costumes directory (Illustrator appends /SVG/ in the path).
 1. Open svg-test.html to test visibility of SVGs.
 1. Build and Install
+
+## manual for scratch users.
+
+Touch Controls SDK for Scratch 3 - add a "virtual gamepad" / "touch controls" to your project for touch screen (no keyboard) users.
+
+Apply Touch Controls SDK to your project.
+
+1. Export the "key-???" sprites you want to use from Touch Controls SDK project.
+2. Upload the "key" sprite files to your project.
+3. Adjust the layout of the "key" sprites to fit your project.
+4. Change the code to respond to the "key" sprites.
+  4A. If your code uses [when [???] key pressed] event block, replace it with [when I [receive key-??? pressed]] event block. Or, make the same code work for both events.
+  4B. If your code uses <key (???) pressed?> sensing block, replace it with <([costume #] of (key-???)) = (2)> operater block. Or connect these two blocks with an "Or" block so that they both respond.
+
+Since Scratch does not support multiple touches, these "key"s do not support multiple presses. However, by slightly overlapping the 4 arrow "key"s, 8-way control will be possible.
