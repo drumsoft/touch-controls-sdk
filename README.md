@@ -54,13 +54,6 @@ Since Scratch does not support multiple touches, these "key"s do not support mul
 ## to upload .sprite3 files on iOS Safari
 
 Since iOS Safari ignores ".sprite3" extension, you cannot upload sprite files in your project.
-So invoke "Make any file uploadable" bookmarklet to make sprite files uploadable.
+A bookmarklet that makes sprite files uploadable is available in the link below.
 
-<a href="javascript:void(document.querySelectorAll('input[type=file]').forEach(e=&gt;e.removeAttribute('accept')));">Make any file uploadable</a>
-
-[Make any file uploadable](javascript:void(document.querySelectorAll('input[type=file]').forEach(e=&gt;e.removeAttribute('accept')));)
-
-1. Open "Bookmarks" side menu.
-2. Long press a link below and drag it to the "Bookmarks" side menu.
-3. Now "Make any file uploadable" bookmarklet was added into your bookmarks.
-4. Select the bookmarklet and it makes ".sprite3" file uploadable.
+[to upload .sprite3 files on iOS Safari](https://drumsoft.com/sprite3-upload-test.html)
