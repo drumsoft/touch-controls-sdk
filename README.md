@@ -50,3 +50,15 @@ Apply Touch Controls SDK to your project.
   4B. If your code uses <key (???) pressed?> sensing block, replace it with <([costume #] of (key-???)) = (2)> operater block. Or connect these two blocks with an "Or" block so that they both respond.
 
 Since Scratch does not support multiple touches, these "key"s do not support multiple presses. However, by slightly overlapping the 4 arrow "key"s, 8-way control will be possible.
+
+## to upload .sprite3 files on iOS Safari
+
+Since iOS Safari ignores ".sprite3" extension, you cannot upload sprite files in your project.
+So invoke "Make any file uploadable" bookmarklet to make sprite files uploadable.
+
+<a href="javascript:void(document.querySelectorAll('input[type=file]').forEach(e=&gt;e.removeAttribute('accept')));">Make any file uploadable</a>
+
+1. Open "Bookmarks" side menu.
+2. Long press a link below and drag it to the "Bookmarks" side menu.
+3. Now "Make any file uploadable" bookmarklet was added into your bookmarks.
+4. Select the bookmarklet and it makes ".sprite3" file uploadable.
