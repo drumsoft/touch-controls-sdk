@@ -58,6 +58,8 @@ So invoke "Make any file uploadable" bookmarklet to make sprite files uploadable
 
 <a href="javascript:void(document.querySelectorAll('input[type=file]').forEach(e=&gt;e.removeAttribute('accept')));">Make any file uploadable</a>
 
+[Make any file uploadable](javascript:void(document.querySelectorAll('input[type=file]').forEach(e=&gt;e.removeAttribute('accept')));)
+
 1. Open "Bookmarks" side menu.
 2. Long press a link below and drag it to the "Bookmarks" side menu.
 3. Now "Make any file uploadable" bookmarklet was added into your bookmarks.
